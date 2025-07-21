@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontak - Citra Rasa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar navbar-expand-lg bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand text-warning fw-bold fs-3" href="index.html">Citra Rasa</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="input-group ms-lg-auto me-lg-3 my-2 my-lg-0" style="max-width: 400px;">
+              <input type="text" class="form-control" placeholder="Cari makanan..." aria-label="Cari makanan">
+              <button class="btn btn-warning" type="button"><i class="fas fa-search text-white"></i></button>
+       </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark fw-bold" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark fw-bold" href="produk.html">Produk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark fw-bold" href="kontak.html">Kontak</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark fw-bold" href="cart.html"><i class="fas fa-shopping-cart"></i> Keranjang</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<section class="container my-5">
+  <h2 class="text-center mb-4">Hubungi Kami</h2>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <label for="nama" class="form-label">Nama Lengkap</label>
+          <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Masukkan email aktif" required>
+        </div>
+        <div class="mb-3">
+          <label for="telepon" class="form-label">Nomor HP / WhatsApp</label>
+          <input type="tel" class="form-control" id="telepon" placeholder="08xxxxxxxxxx" required>
+        </div>
+        <div class="mb-3">
+          <label for="pesan" class="form-label">Pesan</label>
+          <textarea class="form-control" id="pesan" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning text-white w-100">Kirim Pesan</button>
+      </form>
+    </div>
+
+    <div class="col-md-6">
+      <h5>Alamat Kami</h5>
+      <p><i class="fas fa-map-marker-alt me-2"></i> Jl. Sudirman No. 123, Jakarta</p>
+      <p><i class="fas fa-phone me-2"></i> 0812-3456-7890</p>
+      <p><i class="fas fa-envelope me-2"></i> info@Citra Rasa.com</p>
+
+      <div class="mt-3">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56691.2719309834!2d110.74722919399912!3d-7.558122324579006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a16627ad11ab1%3A0xe7fe4e0454bc3095!2sSurakarta%2C%20Kota%20Surakarta%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1753072341873!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Tentang Citra Rasa</h5>
+                    <p>Citra Rasa adalah toko makanan online dengan berbagai pilihan.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Kontak Kami</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Jl. Sudirman No. 123, Jakarta</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> (021) 1234-5678</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@Citra Rasa.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Ikuti Kami</h5>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
